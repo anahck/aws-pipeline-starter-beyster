@@ -18,7 +18,7 @@ phases:
   post_build: 
     commands:
       - echo "Pushing Docker Image..."
-      - docker push anahck/pottery-db:latest .
+      - docker push anahck/pottery-db:latest
  
 
 artifacts:
